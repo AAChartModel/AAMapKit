@@ -14,6 +14,7 @@
 @property (nonatomic, strong) AAGeoLabel *label;
 @end
 
+
 @class AAGeoLabelEmphasis;
 @interface AAGeoLabel : NSObject
 @property (nonatomic, strong) AAGeoLabelEmphasis *emphasis;

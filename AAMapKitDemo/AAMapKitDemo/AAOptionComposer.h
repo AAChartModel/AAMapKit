@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "AAOption.h"
+#import "AAMapModel.h"
 @interface AAOptionComposer : NSObject
-+(AAOption *)constructTheAAOptionInstanseObject;
++(AAOption *)constructTheAAOptionInstanseObjectWithAAMapModel:(AAMapModel *)mapModel;
 @end

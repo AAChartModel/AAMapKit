@@ -23,10 +23,12 @@
 @property (nonatomic, strong) NSNumber *symbolSize;
 @end
 
+
 @class AASeriesElementLineStyleNormal;
 @interface AASeriesElementLineStyle : NSObject
 @property (nonatomic, strong) AASeriesElementLineStyleNormal *normal;
 @end
+
 
 @interface AASeriesElementLineStyleNormal : NSObject
 @property (nonatomic, copy) NSString *color;

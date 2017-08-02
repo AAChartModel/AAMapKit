@@ -25,6 +25,7 @@
 		277A0ECB1F316F1800F6E9CB /* AASeriesElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 277A0ECA1F316F1800F6E9CB /* AASeriesElement.m */; };
 		277A0ECE1F31773300F6E9CB /* AAOption.m in Sources */ = {isa = PBXBuildFile; fileRef = 277A0ECD1F31773300F6E9CB /* AAOption.m */; };
 		277A0ED21F3178F800F6E9CB /* AAOptionComposer.m in Sources */ = {isa = PBXBuildFile; fileRef = 277A0ED11F3178F800F6E9CB /* AAOptionComposer.m */; };
+		277A0ED51F31861A00F6E9CB /* AAMapModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 277A0ED41F31861A00F6E9CB /* AAMapModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +80,8 @@
 		277A0ECD1F31773300F6E9CB /* AAOption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAOption.m; sourceTree = "<group>"; };
 		277A0ED01F3178F800F6E9CB /* AAOptionComposer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAOptionComposer.h; sourceTree = "<group>"; };
 		277A0ED11F3178F800F6E9CB /* AAOptionComposer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAOptionComposer.m; sourceTree = "<group>"; };
+		277A0ED31F31861A00F6E9CB /* AAMapModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAMapModel.h; sourceTree = "<group>"; };
+		277A0ED41F31861A00F6E9CB /* AAMapModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAMapModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -196,6 +199,8 @@
 		277A0ECF1F3178C800F6E9CB /* AAMapComposer */ = {
 			isa = PBXGroup;
 			children = (
+				277A0ED31F31861A00F6E9CB /* AAMapModel.h */,
+				277A0ED41F31861A00F6E9CB /* AAMapModel.m */,
 				277A0ED01F3178F800F6E9CB /* AAOptionComposer.h */,
 				277A0ED11F3178F800F6E9CB /* AAOptionComposer.m */,
 			);
@@ -337,6 +342,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				277A0ED51F31861A00F6E9CB /* AAMapModel.m in Sources */,
 				277A0EC21F3167AA00F6E9CB /* AALegend.m in Sources */,
 				277A0ED21F3178F800F6E9CB /* AAOptionComposer.m in Sources */,
 				277A0E8A1F31646C00F6E9CB /* ViewController.m in Sources */,
